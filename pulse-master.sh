@@ -6,7 +6,7 @@
 set -u
 set -o pipefail
 
-VERSION="1.0.1"
+VERSION="1.0.0"
 INSTALL_DIR="/opt/funpay-worker"
 ENV_FILE="${INSTALL_DIR}/.env"
 COMPOSE_FILE="${INSTALL_DIR}/docker-compose.yml"
